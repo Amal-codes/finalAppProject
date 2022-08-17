@@ -16,6 +16,8 @@
 		3979F8FE28AD31F200469569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3979F8FC28AD31F200469569 /* LaunchScreen.storyboard */; };
 		3979F90928AD31F200469569 /* finalAppProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F90828AD31F200469569 /* finalAppProjectTests.swift */; };
 		3979F91428AD31F200469569 /* finalAppProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F91328AD31F200469569 /* finalAppProjectUITests.swift */; };
+		3979F92228AD3CAA00469569 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F92128AD3CAA00469569 /* LinkView.swift */; };
+		3979F92428AD5E7500469569 /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F92328AD5E7500469569 /* LinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3979F90F28AD31F200469569 /* finalAppProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalAppProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3979F91328AD31F200469569 /* finalAppProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalAppProjectUITests.swift; sourceTree = "<group>"; };
 		3979F91528AD31F200469569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3979F92128AD3CAA00469569 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		3979F92328AD5E7500469569 /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,12 @@
 				3979F8F028AD31EE00469569 /* SceneDelegate.swift */,
 				3979F8F228AD31EE00469569 /* ViewController.swift */,
 				3979F8F428AD31EE00469569 /* Main.storyboard */,
+				3979F92128AD3CAA00469569 /* LinkView.swift */,
 				3979F8FA28AD31F200469569 /* Assets.xcassets */,
 				3979F8FC28AD31F200469569 /* LaunchScreen.storyboard */,
 				3979F8FF28AD31F200469569 /* Info.plist */,
 				3979F8F728AD31EE00469569 /* finalAppProject.xcdatamodeld */,
+				3979F92328AD5E7500469569 /* LinkViewController.swift */,
 			);
 			path = finalAppProject;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			files = (
 				3979F8F328AD31EE00469569 /* ViewController.swift in Sources */,
 				3979F8EF28AD31EE00469569 /* AppDelegate.swift in Sources */,
+				3979F92428AD5E7500469569 /* LinkViewController.swift in Sources */,
 				3979F8F928AD31EE00469569 /* finalAppProject.xcdatamodeld in Sources */,
 				3979F8F128AD31EE00469569 /* SceneDelegate.swift in Sources */,
+				3979F92228AD3CAA00469569 /* LinkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
