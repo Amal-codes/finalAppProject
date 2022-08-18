@@ -38,6 +38,7 @@ class LinkViewController: UIViewController {
     @IBAction func link6(_ sender: Any) {
         UIApplication.shared.open(URL(string:"https://donate.nilc.org/page/34668/donate/1?ea.tracking.id=Nilcweb")! as URL, options: [:], completionHandler: nil)
     }
+    
     @IBAction func link7(_ sender: Any) {
         UIApplication.shared.open(URL(string:"https://www.aclu.org/")! as URL, options: [:], completionHandler: nil)
     }
@@ -54,8 +55,6 @@ class LinkViewController: UIViewController {
         UIApplication.shared.open(URL(string:"https://awionline.org/content/make-donation-awi")! as URL, options: [:], completionHandler: nil)
     }
     /*
-    // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
