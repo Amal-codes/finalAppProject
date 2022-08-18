@@ -12,11 +12,12 @@
 		3979F8F328AD31EE00469569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F8F228AD31EE00469569 /* ViewController.swift */; };
 		3979F8F628AD31EE00469569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3979F8F428AD31EE00469569 /* Main.storyboard */; };
 		3979F8F928AD31EE00469569 /* finalAppProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3979F8F728AD31EE00469569 /* finalAppProject.xcdatamodeld */; };
-		3979F8FB28AD31F200469569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3979F8FA28AD31F200469569 /* Assets.xcassets */; };
 		3979F8FE28AD31F200469569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3979F8FC28AD31F200469569 /* LaunchScreen.storyboard */; };
 		3979F90928AD31F200469569 /* finalAppProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F90828AD31F200469569 /* finalAppProjectTests.swift */; };
 		3979F91428AD31F200469569 /* finalAppProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F91328AD31F200469569 /* finalAppProjectUITests.swift */; };
 		397CEA2428AE9AE700185DCB /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA2328AE9AE700185DCB /* LinkViewController.swift */; };
+		852DF33328AEAF63005906A2 /* Montebello-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33228AEAF63005906A2 /* Montebello-Bold.otf */; };
+		852DF33528AEB075005906A2 /* Modern Serif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33428AEB075005906A2 /* Modern Serif.ttf */; };
 		8539760D28AE8DC200F2C035 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8539760C28AE8DC200F2C035 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +45,6 @@
 		3979F8F228AD31EE00469569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3979F8F528AD31EE00469569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3979F8F828AD31EE00469569 /* finalAppProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalAppProject.xcdatamodel; sourceTree = "<group>"; };
-		3979F8FA28AD31F200469569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3979F8FD28AD31F200469569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3979F8FF28AD31F200469569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3979F90428AD31F200469569 /* finalAppProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalAppProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +54,8 @@
 		3979F91328AD31F200469569 /* finalAppProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalAppProjectUITests.swift; sourceTree = "<group>"; };
 		3979F91528AD31F200469569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397CEA2328AE9AE700185DCB /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		852DF33228AEAF63005906A2 /* Montebello-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montebello-Bold.otf"; path = "../../../Downloads/montebello-bold/Montebello-Bold.otf"; sourceTree = "<group>"; };
+		852DF33428AEB075005906A2 /* Modern Serif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Modern Serif.ttf"; path = "../../../Downloads/modern_serif/Modern Serif.ttf"; sourceTree = "<group>"; };
 		8539760C28AE8DC200F2C035 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,8 +112,9 @@
 				3979F8F228AD31EE00469569 /* ViewController.swift */,
 				8539760C28AE8DC200F2C035 /* MapViewController.swift */,
 				3979F8F428AD31EE00469569 /* Main.storyboard */,
+				852DF33428AEB075005906A2 /* Modern Serif.ttf */,
+				852DF33228AEAF63005906A2 /* Montebello-Bold.otf */,
 				397CEA2328AE9AE700185DCB /* LinkViewController.swift */,
-				3979F8FA28AD31F200469569 /* Assets.xcassets */,
 				3979F8FC28AD31F200469569 /* LaunchScreen.storyboard */,
 				3979F8FF28AD31F200469569 /* Info.plist */,
 				3979F8F728AD31EE00469569 /* finalAppProject.xcdatamodeld */,
@@ -241,7 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3979F8FE28AD31F200469569 /* LaunchScreen.storyboard in Resources */,
-				3979F8FB28AD31F200469569 /* Assets.xcassets in Resources */,
+				852DF33328AEAF63005906A2 /* Montebello-Bold.otf in Resources */,
+				852DF33528AEB075005906A2 /* Modern Serif.ttf in Resources */,
 				3979F8F628AD31EE00469569 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
