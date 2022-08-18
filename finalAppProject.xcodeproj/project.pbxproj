@@ -16,6 +16,8 @@
 		3979F90928AD31F200469569 /* finalAppProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F90828AD31F200469569 /* finalAppProjectTests.swift */; };
 		3979F91428AD31F200469569 /* finalAppProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979F91328AD31F200469569 /* finalAppProjectUITests.swift */; };
 		397CEA2428AE9AE700185DCB /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA2328AE9AE700185DCB /* LinkViewController.swift */; };
+		7537CC6B28AEEFD400DF74E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537CC6A28AEEFD400DF74E5 /* TableViewController.swift */; };
+		7537CC6D28AEF05A00DF74E5 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537CC6C28AEF05A00DF74E5 /* ToDo.swift */; };
 		852DF33328AEAF63005906A2 /* Montebello-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33228AEAF63005906A2 /* Montebello-Bold.otf */; };
 		852DF33528AEB075005906A2 /* Modern Serif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33428AEB075005906A2 /* Modern Serif.ttf */; };
 		8539760D28AE8DC200F2C035 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8539760C28AE8DC200F2C035 /* MapViewController.swift */; };
@@ -54,6 +56,8 @@
 		3979F91328AD31F200469569 /* finalAppProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalAppProjectUITests.swift; sourceTree = "<group>"; };
 		3979F91528AD31F200469569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397CEA2328AE9AE700185DCB /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		7537CC6A28AEEFD400DF74E5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7537CC6C28AEF05A00DF74E5 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		852DF33228AEAF63005906A2 /* Montebello-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montebello-Bold.otf"; path = "../../../Downloads/montebello-bold/Montebello-Bold.otf"; sourceTree = "<group>"; };
 		852DF33428AEB075005906A2 /* Modern Serif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Modern Serif.ttf"; path = "../../../Downloads/modern_serif/Modern Serif.ttf"; sourceTree = "<group>"; };
 		8539760C28AE8DC200F2C035 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				3979F8FC28AD31F200469569 /* LaunchScreen.storyboard */,
 				3979F8FF28AD31F200469569 /* Info.plist */,
 				3979F8F728AD31EE00469569 /* finalAppProject.xcdatamodeld */,
+				7537CC6C28AEF05A00DF74E5 /* ToDo.swift */,
+				7537CC6A28AEEFD400DF74E5 /* TableViewController.swift */,
 			);
 			path = finalAppProject;
 			sourceTree = "<group>";
@@ -272,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3979F8F328AD31EE00469569 /* ViewController.swift in Sources */,
+				7537CC6B28AEEFD400DF74E5 /* TableViewController.swift in Sources */,
 				3979F8EF28AD31EE00469569 /* AppDelegate.swift in Sources */,
+				7537CC6D28AEF05A00DF74E5 /* ToDo.swift in Sources */,
 				397CEA2428AE9AE700185DCB /* LinkViewController.swift in Sources */,
 				3979F8F928AD31EE00469569 /* finalAppProject.xcdatamodeld in Sources */,
 				3979F8F128AD31EE00469569 /* SceneDelegate.swift in Sources */,
