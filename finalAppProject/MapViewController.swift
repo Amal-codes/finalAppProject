@@ -44,6 +44,18 @@ class MapViewController: UIViewController, UISearchBarDelegate {
             
             locations.append(location(title1: "Fight for our Rights: Abortion Access Fundraiser", sub: "Women's Rights", lat: 37.77818, long: -122.40579))
             locations.append(location(title1: "Planned Parenthood:: Drown Out Their Hate! Counter Protest", sub: "Women's Rights", lat: 37.66484, long: -120.99446))
+        case 2:
+            locations.removeAll()
+            mapView.removeAnnotations(mapView.annotations)
+            
+            locations.append(location(title1: "Rally/March to Defend DACA!", sub: "Immigration", lat: 37.33780, long: -121.88527))
+        case 3:
+            locations.removeAll()
+            mapView.removeAnnotations(mapView.annotations)
+            
+            locations.append(location(title1: "Bay Bridge March: World Day for the End of Speciesism", sub: "Animal Rights", lat: 37.82300, long: -122.31482))
+            locations.append(location(title1: "Exposing the Deathstar: Rescue Trial in the Utah Desert", sub: "Animal Rights", lat: 40.75906, long: -111.88879))
+            locations.append(location(title1: "Exposing the Deathstar: Rescue Trial in the Utah Desert", sub: "Animal Rights", lat: 38.27451, long: 112.63900))
         default:
             break
         }

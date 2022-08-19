@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xgY-1v-Z7Z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -121,6 +120,9 @@
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="SummaryNotes-Regular" family="Summary Notes" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xgY-1v-Z7Z" kind="presentation" modalPresentationStyle="fullScreen" id="Ohh-eI-gdQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -143,12 +145,6 @@
                             <constraint firstItem="d86-Qv-d7z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="qUF-9O-Msu"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="roundedCornerButton" destination="d86-Qv-d7z" id="ieJ-TT-nGt"/>
-                        <outlet property="roundedCornerButton2" destination="VYK-fO-WXo" id="eqh-kt-dTk"/>
-                        <outlet property="roundedCornerButton3" destination="LUa-o3-Qpv" id="gh4-ra-kc3"/>
-                        <outlet property="roundedCornerButton4" destination="X2a-bZ-abP" id="Bl3-Md-ObW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -451,15 +447,16 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="TMu-mP-I9x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.69890135529999997" green="0.79569190739999995" blue="0.81569057700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mZd-gj-fvl">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="mZd-gj-fvl">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="reuseIdentifier" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mZd-gj-fvl" id="nY4-hg-9eP">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.69890135529999997" green="0.79569190739999995" blue="0.81569057700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -468,7 +465,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Organize Your Own Protest!!" id="4wG-6o-q6q">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="I1r-qp-CdU"/>
+                        <barButtonItem key="rightBarButtonItem" image="checkmark.circle.fill" catalog="system" id="I1r-qp-CdU">
+                            <color key="tintColor" red="0.51438742879999999" green="0.58792775870000002" blue="0.60392493010000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="4sr-Ro-M5i" kind="presentation" modalPresentationStyle="fullScreen" id="tgI-bI-Lp1"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pfs-Ry-bXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -709,6 +711,9 @@
                                 <state key="normal">
                                     <imageReference key="image" image="house.fill" catalog="system" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="bZJ-7H-Cqx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tEy-8y-wJQ"/>
@@ -749,7 +754,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ude-Y3-rli"/>
+        <segue reference="bnb-m5-oDT"/>
+        <segue reference="bZJ-7H-Cqx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AnimalRightsProtest.JPG" width="600" height="399.1199951171875"/>
@@ -757,6 +763,7 @@
         <image name="ClimateChangeProtest.jpg" width="1920" height="811.5"/>
         <image name="WRMProtest.jpg" width="1000" height="636"/>
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
+        <image name="checkmark.circle.fill" catalog="system" width="128" height="121"/>
         <image name="globe.americas.fill" catalog="system" width="128" height="121"/>
         <image name="heart" catalog="system" width="128" height="109"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
@@ -764,8 +771,5 @@
         <image name="interactivismBackground2.png" width="160.90908813476562" height="320.72726440429688"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="pawprint" catalog="system" width="128" height="116"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
