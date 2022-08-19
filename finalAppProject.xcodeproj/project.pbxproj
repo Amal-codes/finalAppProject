@@ -20,6 +20,18 @@
 		7537CC6D28AEF05A00DF74E5 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537CC6C28AEF05A00DF74E5 /* ToDo.swift */; };
 		852DF33328AEAF63005906A2 /* Montebello-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33228AEAF63005906A2 /* Montebello-Bold.otf */; };
 		852DF33528AEB075005906A2 /* Modern Serif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33428AEB075005906A2 /* Modern Serif.ttf */; };
+		852DF33D28AF0E50005906A2 /* interactivismBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33C28AF0E50005906A2 /* interactivismBackground.jpg */; };
+		852DF33F28AF0E94005906A2 /* SummaryNotesRegular-Ea5ln.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF33E28AF0E94005906A2 /* SummaryNotesRegular-Ea5ln.ttf */; };
+		852DF34128AF11AB005906A2 /* MoodyAdolescentRegular-z8VV1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34028AF11AB005906A2 /* MoodyAdolescentRegular-z8VV1.ttf */; };
+		852DF34328AF1359005906A2 /* Milky Matcha.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34228AF1359005906A2 /* Milky Matcha.otf */; };
+		852DF34528AF13C4005906A2 /* Shalma-Rp0Pe.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34428AF13C4005906A2 /* Shalma-Rp0Pe.otf */; };
+		852DF34728AF1414005906A2 /* LoftygoalsRegular-9Y5Xy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34628AF1414005906A2 /* LoftygoalsRegular-9Y5Xy.otf */; };
+		852DF34928AF1437005906A2 /* Little Cupcakes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34828AF1437005906A2 /* Little Cupcakes.ttf */; };
+		852DF34B28AF1860005906A2 /* interactivismBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34A28AF1860005906A2 /* interactivismBackground2.png */; };
+		852DF34D28AF1D34005906A2 /* BLMProtest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34C28AF1D34005906A2 /* BLMProtest.jpg */; };
+		852DF34F28AF1D5A005906A2 /* WRMProtest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 852DF34E28AF1D5A005906A2 /* WRMProtest.jpg */; };
+		852DF35128AF1D6E005906A2 /* ClimateChangeProtest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 852DF35028AF1D6E005906A2 /* ClimateChangeProtest.jpg */; };
+		852DF35328AF1D81005906A2 /* AnimalRightsProtest.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 852DF35228AF1D81005906A2 /* AnimalRightsProtest.JPG */; };
 		8539760D28AE8DC200F2C035 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8539760C28AE8DC200F2C035 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +72,18 @@
 		7537CC6C28AEF05A00DF74E5 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		852DF33228AEAF63005906A2 /* Montebello-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montebello-Bold.otf"; path = "../../../Downloads/montebello-bold/Montebello-Bold.otf"; sourceTree = "<group>"; };
 		852DF33428AEB075005906A2 /* Modern Serif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Modern Serif.ttf"; path = "../../../Downloads/modern_serif/Modern Serif.ttf"; sourceTree = "<group>"; };
+		852DF33C28AF0E50005906A2 /* interactivismBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = interactivismBackground.jpg; path = ../../../Downloads/interactivismBackground.jpg; sourceTree = "<group>"; };
+		852DF33E28AF0E94005906A2 /* SummaryNotesRegular-Ea5ln.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SummaryNotesRegular-Ea5ln.ttf"; path = "../../../Downloads/summary-notes-font/SummaryNotesRegular-Ea5ln.ttf"; sourceTree = "<group>"; };
+		852DF34028AF11AB005906A2 /* MoodyAdolescentRegular-z8VV1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MoodyAdolescentRegular-z8VV1.ttf"; path = "../../../Downloads/moody-adolescent-font/MoodyAdolescentRegular-z8VV1.ttf"; sourceTree = "<group>"; };
+		852DF34228AF1359005906A2 /* Milky Matcha.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Milky Matcha.otf"; path = "../../../Downloads/milky-matcha-personal-use/Milky Matcha.otf"; sourceTree = "<group>"; };
+		852DF34428AF13C4005906A2 /* Shalma-Rp0Pe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Shalma-Rp0Pe.otf"; path = "../../../Downloads/shalma-font/Shalma-Rp0Pe.otf"; sourceTree = "<group>"; };
+		852DF34628AF1414005906A2 /* LoftygoalsRegular-9Y5Xy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LoftygoalsRegular-9Y5Xy.otf"; path = "../../../Downloads/lofty-goals-font/LoftygoalsRegular-9Y5Xy.otf"; sourceTree = "<group>"; };
+		852DF34828AF1437005906A2 /* Little Cupcakes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Little Cupcakes.ttf"; path = "../../../Downloads/Little Cupcakes.ttf"; sourceTree = "<group>"; };
+		852DF34A28AF1860005906A2 /* interactivismBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = interactivismBackground2.png; path = ../../../Downloads/interactivismBackground2.png; sourceTree = "<group>"; };
+		852DF34C28AF1D34005906A2 /* BLMProtest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BLMProtest.jpg; path = ../../../Downloads/BLMProtest.jpg; sourceTree = "<group>"; };
+		852DF34E28AF1D5A005906A2 /* WRMProtest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WRMProtest.jpg; path = ../../../Downloads/WRMProtest.jpg; sourceTree = "<group>"; };
+		852DF35028AF1D6E005906A2 /* ClimateChangeProtest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ClimateChangeProtest.jpg; path = ../../../Downloads/ClimateChangeProtest.jpg; sourceTree = "<group>"; };
+		852DF35228AF1D81005906A2 /* AnimalRightsProtest.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AnimalRightsProtest.JPG; path = ../../../Downloads/AnimalRightsProtest.JPG; sourceTree = "<group>"; };
 		8539760C28AE8DC200F2C035 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +140,12 @@
 				3979F8F228AD31EE00469569 /* ViewController.swift */,
 				8539760C28AE8DC200F2C035 /* MapViewController.swift */,
 				3979F8F428AD31EE00469569 /* Main.storyboard */,
+				852DF34828AF1437005906A2 /* Little Cupcakes.ttf */,
+				852DF34628AF1414005906A2 /* LoftygoalsRegular-9Y5Xy.otf */,
+				852DF34428AF13C4005906A2 /* Shalma-Rp0Pe.otf */,
+				852DF34228AF1359005906A2 /* Milky Matcha.otf */,
+				852DF34028AF11AB005906A2 /* MoodyAdolescentRegular-z8VV1.ttf */,
+				852DF33E28AF0E94005906A2 /* SummaryNotesRegular-Ea5ln.ttf */,
 				852DF33428AEB075005906A2 /* Modern Serif.ttf */,
 				852DF33228AEAF63005906A2 /* Montebello-Bold.otf */,
 				397CEA2328AE9AE700185DCB /* LinkViewController.swift */,
@@ -123,6 +153,12 @@
 				3979F8FF28AD31F200469569 /* Info.plist */,
 				3979F8F728AD31EE00469569 /* finalAppProject.xcdatamodeld */,
 				7537CC6C28AEF05A00DF74E5 /* ToDo.swift */,
+				852DF33C28AF0E50005906A2 /* interactivismBackground.jpg */,
+				852DF34A28AF1860005906A2 /* interactivismBackground2.png */,
+				852DF34C28AF1D34005906A2 /* BLMProtest.jpg */,
+				852DF34E28AF1D5A005906A2 /* WRMProtest.jpg */,
+				852DF35028AF1D6E005906A2 /* ClimateChangeProtest.jpg */,
+				852DF35228AF1D81005906A2 /* AnimalRightsProtest.JPG */,
 				7537CC6A28AEEFD400DF74E5 /* TableViewController.swift */,
 			);
 			path = finalAppProject;
@@ -249,10 +285,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852DF34528AF13C4005906A2 /* Shalma-Rp0Pe.otf in Resources */,
 				3979F8FE28AD31F200469569 /* LaunchScreen.storyboard in Resources */,
+				852DF33D28AF0E50005906A2 /* interactivismBackground.jpg in Resources */,
+				852DF33F28AF0E94005906A2 /* SummaryNotesRegular-Ea5ln.ttf in Resources */,
+				852DF34928AF1437005906A2 /* Little Cupcakes.ttf in Resources */,
+				852DF34D28AF1D34005906A2 /* BLMProtest.jpg in Resources */,
+				852DF34F28AF1D5A005906A2 /* WRMProtest.jpg in Resources */,
+				852DF34328AF1359005906A2 /* Milky Matcha.otf in Resources */,
 				852DF33328AEAF63005906A2 /* Montebello-Bold.otf in Resources */,
+				852DF35128AF1D6E005906A2 /* ClimateChangeProtest.jpg in Resources */,
+				852DF35328AF1D81005906A2 /* AnimalRightsProtest.JPG in Resources */,
 				852DF33528AEB075005906A2 /* Modern Serif.ttf in Resources */,
+				852DF34728AF1414005906A2 /* LoftygoalsRegular-9Y5Xy.otf in Resources */,
 				3979F8F628AD31EE00469569 /* Main.storyboard in Resources */,
+				852DF34128AF11AB005906A2 /* MoodyAdolescentRegular-z8VV1.ttf in Resources */,
+				852DF34B28AF1860005906A2 /* interactivismBackground2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
